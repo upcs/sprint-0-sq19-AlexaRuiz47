@@ -1,4 +1,7 @@
-var a = 10; 
-var b = 5;
-document.write(a+b); 
+function sum(a, b) {
+  return a + b;
+}
+document.write(sum(5+10)); 
+module.exports = sum;
+
 
